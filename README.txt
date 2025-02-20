@@ -11,6 +11,7 @@ GET /v2/user/{username}: Obtener información de un usuario actualizado por su n
 PUT /v2/user/{username}: Actualizar la información de un usuario existente.
 DELETE /v2/user/{username}: Eliminar un usuario por su nombre de usuario.
 
+
 Tecnologías y Herramientas Utilizadas
 Lenguaje: Java
 Framework de automatización: Serenity BDD con Screenplay
@@ -64,8 +65,7 @@ git clone https://github.com/jhoana-chicaiza/PetStore.git
 cd PetStore
 
 Uso
-Para ejecutar las pruebas dirigete a test/java/com/sofka/petstoretest/runners para ejecutar las pruebas individuales.
-las pruebas individuales.
+Para ejecutar las pruebas dirigete a test/java/com/sofka/petstoretest/runners/ProjectRunner.java
 
 Reportes
 Los reportes de Serenity se generarán en target/site/serenity/index.html después de ejecutar gradle aggregate.

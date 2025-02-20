@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Delete user" skipped="0" tests="1" time="7.22" timestamp="2025-02-20 01:56:46"><testcase name="Delete user with valid username"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Delete user" skipped="0" tests="1" time="2.46" timestamp="2025-02-20 02:57:23"><testcase name="Delete user with valid username"/></testsuite>
