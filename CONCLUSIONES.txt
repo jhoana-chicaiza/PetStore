@@ -1,0 +1,50 @@
+Conclusiones
+El proyecto de automatización de pruebas para la API de Petstore ha sido una experiencia enriquecedora que permitió
+validar el correcto funcionamiento de los endpoints clave relacionados con la gestión de usuarios. A continuación,
+se presentan las conclusiones más relevantes:
+
+1. Cobertura de Pruebas
+Se logró cubrir los principales flujos de trabajo de la API, incluyendo la creación, consulta, actualización y
+eliminación de usuarios.
+Las pruebas automatizadas abarcaron escenarios positivos y negativos, asegurando que la API responda de manera
+adecuada en diferentes situaciones.
+
+2. Uso de Tecnologías Modernas
+La implementación de Serenity BDD con el patrón Screenplay permitió crear pruebas claras, mantenibles y escalables.
+El uso de Cucumber como Test Runner facilitó la escritura de pruebas en un lenguaje natural (Gherkin), lo que mejora
+la colaboración entre equipos técnicos y no técnicos.
+La integración de SLF4J y Logback proporcionó un sistema de logging robusto, esencial para el diagnóstico de problemas
+durante la ejecución de las pruebas.
+
+3. Calidad del Código
+Se aplicaron buenas prácticas de desarrollo, como la separación de responsabilidades (tasks, steps, questions) y la
+reutilización de código.
+El uso de constantes en la clase Constants.java centralizó la configuración, facilitando su mantenimiento y
+actualización.
+
+4. Resultados y Reportes
+Los reportes generados por Serenity BDD ofrecen una visión detallada del estado de las pruebas, incluyendo capturas
+de pantalla y logs, lo que facilita la identificación y corrección de errores.
+La ejecución de las pruebas en un entorno controlado permitió validar que la API cumple con los requisitos funcionales
+esperados.
+
+5. Lecciones Aprendidas
+La automatización de pruebas no solo ahorra tiempo, sino que también mejora la confiabilidad del software al detectar
+errores de manera temprana.
+La documentación clara y la estructura organizada del proyecto son esenciales para facilitar la colaboración y el
+mantenimiento a largo plazo.
+La integración de herramientas como Gradle y Serenity BDD simplifica la gestión de dependencias y la generación de
+reportes.
+
+6. Próximos Pasos
+Ampliar la cobertura de pruebas para incluir otros endpoints de la API, como la gestión de mascotas y pedidos.
+Integrar las pruebas automatizadas en un pipeline de CI/CD (Integración Continua/Despliegue Continuo) para ejecutarlas
+de manera automática en cada cambio en el código.
+Explorar la posibilidad de añadir pruebas de rendimiento y seguridad para garantizar que la API sea robusta y escalable.
+
+Reflexión Final
+La automatización de pruebas es un pilar fundamental en el desarrollo de software moderno. Este proyecto no solo
+demostró la viabilidad de automatizar pruebas funcionales para la API de Petstore, sino que también destacó la
+importancia de utilizar herramientas y prácticas que mejoren la eficiencia y la calidad del proceso de testing.
+Con una base sólida establecida, el equipo está bien posicionado para seguir mejorando y expandiendo las pruebas
+en el futuro.

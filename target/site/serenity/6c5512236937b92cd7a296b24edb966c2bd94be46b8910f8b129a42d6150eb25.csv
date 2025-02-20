@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Create a new user","Create a new user with valid information","SUCCESS","2025-02-20T13:48:16.0008584-05:00[America/Guayaquil]","0.0","6.2"
+"Delete user","Delete user with valid username","SUCCESS","2025-02-20T13:56:46.7271355-05:00[America/Guayaquil]","0.0","7.22"
+"Get user information","Retrieve user information with valid username","SUCCESS","2025-02-20T14:02:57.6254945-05:00[America/Guayaquil]","0.0","6.81"
+"Search updated user information","Retrieve updated user information with valid username","SUCCESS","2025-02-20T14:25:07.76879-05:00[America/Guayaquil]","0.0","7.46"
+"Update user information","Update user information with valid data","SUCCESS","2025-02-20T13:47:55.2866182-05:00[America/Guayaquil]","0.0","6.76"
